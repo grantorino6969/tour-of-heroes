@@ -23,7 +23,7 @@ export class HeroesComponent {
 
   getHeroes(): void {
     this.heroService.getHeroes()
-                    .subscribe(heroes =>(this.heroes = heroes)
+                     .subscribe(heroes =>(this.heroes = heroes)
                     );
   }
 
